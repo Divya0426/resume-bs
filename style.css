@@ -1,0 +1,16 @@
+.custom-container{
+
+    background: wheat;
+    border:2px solid greenyellow;
+}
+.cus-row{
+    border:1px dashed green ;
+    height: 100px;
+}
+.cus-col{
+    border:1px dashed blueviolet ;
+}
+.cus-wih{
+    width: 50;
+    height: 50;
+}

@@ -1,0 +1,138 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+
+ body{
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ .column-block{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+ .left-col-block{
+   width: 50%;
+   text-align: center;
+   overflow: hidden;
+  position: fixed;
+  left: 0%;
+ }
+ .ryt-col-block{
+   width:50%;
+   position: absolute;
+   right:0%;
+   
+ }
+ .header {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    vertical-align: middle;
+    position: relative;
+
+ }
+.header .image{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(../IMAGES/IMG-20230716-WA0091.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    }
+.header .image:after{
+    content: "";
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient( to top,rgb(108,33,40),transparent 50% ,transparent 0%  );
+}
+ .header .content{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    left: 0; /*not important next 3 lines*/
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+
+ }
+ .header .content h1{
+    color: white;
+    font-size: 36px;
+    line-height: 1px;
+    margin: 0;
+
+ }
+ .header .content p{
+     color: white;
+     font-size: 20px;
+     padding-top: 15px;
+ }
+ .header .content .icon{  
+    padding: 0%;
+    margin: 0;
+   
+    display: block ; /*not important*/
+ }
+
+ .header .content .icon li{
+    margin: 0 2px;
+    ;
+    display: inline-block;
+ }
+ .header .content .icon a{
+    display: block;
+    font-size: 15px;
+    color: black !important;
+    height: 35px;
+    width:35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 100px;
+    border: 2px solid white;
+ }
+ .header .content .icon a:hover{
+    border-color: black;
+ }
+ .section-wrapper{
+   padding: 30px; 
+}
+.title{
+   margin-bottom: 10px;
+}
+
+ h4{
+   color: gray !important;  
+}
+h6{
+   color: black !important;
+}
+h5{
+   color: red !important;
+}
+a{
+   color: darkorchid !important;
+   text-decoration: none;
+}
+p{
+   margin-bottom: 20px !important;
+   color: rgb(56, 42, 42);
+}
+ .background{
+    background: beige;    
+ }
+ .ex-item{
+   margin-bottom: 20px;
+ }
+ .ex-item h5{
+   margin-bottom: 5px;
+   color: black;
+   font: bold;
+ }
+ .probar{
+   padding-bottom:20px;
+ }
